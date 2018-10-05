@@ -1,10 +1,10 @@
 # HappyPlants
 
-##Are you a fan of raising succulent plant?
+## Are you a fan of raising succulent plant?
 
-##Have you ever wonder why the plant you raise always dead?
+## Have you ever wonder why the plant you raise always dead?
 
-##Do you want to share your experience of raising a plant with your friend?
+## Do you want to share your experience of raising a plant with your friend?
 
 I want to develop an application that can help people who are interested in raising plants but have no time to take care of them. The app will:
 
