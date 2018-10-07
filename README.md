@@ -28,21 +28,26 @@ The app will also leverage android api such as,
 
 5. Auto generate timeline of your raising history.
 
-Good news! I looked on the Apple app store, and I don't see an app of this kind published. I don't own an android device. But, I checked Google Play Store, and I found the Plant Nanny, but it actually isn't what you think, the app helps YOU drink more water. :)
+## Weekly Log
+### Week 1
+*Work on setting up project, completing UI, work with getting data from API parsed and database setup.
 
-https://play.google.com/store/apps/details?id=com.fourdesire.plantnanny
+UI Assignments
 
-I checked the other apps and nothing stands out. 
+Harry’s UI
+Login
+Shared-facebook
+Home (bottom bar)
+garden（card)
 
-https://play.google.com/store/search?q=plant&c=apps
+Sally’s UI
+Questions 1-4
 
-Harry, would be great if we can tap into a plant API, to some how calculate watering, info. I found this plant image dataset: https://www.plant-image-analysis.org/dataset
-
-And, this API from the US Department of Agriculture that we can tap into. :)
-
-https://catalog.data.gov/dataset/plants
-
-For push notification, Harry, we can maybe look at third-party push provider OneSignal. It's free. https://onesignal.com/
+James’ UI
+your suggestions
+More about suggestions
+about this plant
+Welcome@3x
 
 //james has committed
 
