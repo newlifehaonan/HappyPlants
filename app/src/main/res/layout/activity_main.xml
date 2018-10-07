@@ -4,15 +4,86 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#15E9A6"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/textView"
+        android:layout_width="329dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="104dp"
+        android:background="#15E9A6"
+        android:text="What type of lighting do you have in the room you want your plant in?"
+        android:textAppearance="@android:style/TextAppearance.Widget.TextView.SpinnerItem"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/lowB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/lowB"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginStart="130dp"
+        android:background="#13EA6E"
+        android:text="Low Light"
+        app:layout_constraintBottom_toTopOf="@+id/MedB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/MedB"
+        android:layout_width="117dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginStart="131dp"
+        android:background="#13EA6E"
+        android:text="Medium Light"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="117dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="89dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginStart="134dp"
+        android:background="#13EA6E"
+        android:text="High Light"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="205dp"
+        android:layout_marginStart="2dp"
+        android:text="SKIP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
