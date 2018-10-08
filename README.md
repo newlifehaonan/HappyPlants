@@ -96,4 +96,4 @@ Questions 1-4
 //Sally's random commits 1
 //Harry has committed 1
 //Test for pull to own branch
-//Addingn this to test commit
+//Adding this to test commit, and will add some more soon
