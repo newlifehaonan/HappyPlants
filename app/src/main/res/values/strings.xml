@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">HousePlants</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="login_create_accout">Create an Account</string>
+    <string name="login_header">Continue your adventure to keep track of your plants</string>
+    <string name="login_plant">login_plant</string>
+    <string name="Log_with">Login with</string>
+    <string name="Or">Or</string>
+    <string name="email">Email Address</string>
 </resources>
