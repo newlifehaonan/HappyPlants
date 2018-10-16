@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">HousePlants</string>
+    <string name="app_name">Happy Plants</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="welcomeText"> "Click the button on the right corner or swipe left and add your first plant" </string>
+    <string name="welcomeImageDescription"> "Welcome image sad face." </string>
 </resources>
