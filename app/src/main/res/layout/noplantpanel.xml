@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<afinal.csc472.depaul.edu.houseplants.NoPlantPanel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="NoPlant-Panel"
+    android:id="@+id/NoPlant_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center">
+</afinal.csc472.depaul.edu.houseplants.NoPlantPanel>

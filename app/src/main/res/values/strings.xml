@@ -1,5 +1,46 @@
 <resources>
-    <string name="app_name">HousePlants</string>
+
+
+    <!--James string-->
+    <string name="app_name">Happy Plants</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="welcomeText">Click the Button below to add your first plant</string>
+    <string name="welcomeImageDescription"> "Welcome image sad face." </string>
+    <string name="yourSuggestions"> "Your Suggestions" </string>
+    <string name="explore"> "Let's click this plant and explore it." </string>
+    <string name="succulents"> "Succulents"</string>
+    <string name="question1">Question 1</string>
+    <string name="lighting">What type of lighting do you have in the room you want your plant in?</string>
+    <string name="Lowlight">Low Light</string>
+    <string name="Mediumlight">Medium Light</string>
+    <string name="Highlight">High Light</string>
+    <string name="question2">Question 2</string>
+    <string name="plantlevel">In taking care of your plant, what level would you like it to be?</string>
+    <string name="Easy">Easy</string>
+    <string name="Average">Average</string>
+    <string name="Difficult">Difficult</string>
+    <string name="question4">Question 4</string>
+    <string name="petskids">Do you have pets or kids?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="question3">Question 3</string>
+    <string name="planttype">What type of plants are you interested in?</string>
+    <string name="bonsai">Bonsai</string>
+    <string name="cleanairplant">Clean Air</string>
+    <string name="ground">Ground</string>
+    <string name="flowering">Flowering</string>
+    <string name="hanging">Hanging</string>
+    <string name="officeplant">Office Plant</string>
+    <string name="species">Graptopetalums</string>
+    <string name="time">00:00:00</string>
+    <string name="watered"> Watered My Plant</string>
+    <string name="username">James Vallès</string>
+    <string name="userdescription">I am an avid plant lover. Fond of my office plants. They make me happy.</string>
+
+    <!--Harry's string-->
+    <string name="wishlist">WishList</string>
+    <string name="back_explore">Back to Explore</string>
+    <string name="create_nickname">Plant Nickname</string>
     <string name="login_username">Username</string>
     <string name="login_password">Password</string>
     <string name="login_btn">Login</string>
@@ -9,4 +50,15 @@
     <string name="Log_with">Login with</string>
     <string name="Or">Or</string>
     <string name="email">Email Address</string>
+    <string name="saveplant">Save For Later</string>
+    <string name="addplant">Add To Garden</string>
+    <string name="fakeplantname">Graptoveria</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="awesome">Awesome</string>
+    <string name="garden">Garden</string>
+    <string name="discover">Discover</string>
+    <string name="stories">Stories</string>
+    <string name="profiles">Profiles</string>
+    <string name="tip">Welcome to HappyPlant Click The Button to Create your first plant</string>
+    <string name="fakeplantdescription">The rules for the plant includes All require lots of sun to look their best. They require gritty porous soil with excellent drainage. Water regularly over the summer months letting the soil dry out between waterings.</string>
 </resources>

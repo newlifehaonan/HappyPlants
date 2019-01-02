@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "67369468024",
+    "firebase_url": "https://happyplant-e39af.firebaseio.com",
+    "project_id": "happyplant-e39af",
+    "storage_bucket": "happyplant-e39af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67369468024:android:c7b5b04f033a5b8c",
+        "android_client_info": {
+          "package_name": "afinal.csc472.depaul.edu.houseplants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67369468024-6ksgipmco0o6mkj45fjsk446og5nlqtq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "afinal.csc472.depaul.edu.houseplants",
+            "certificate_hash": "9f6875725cfc654a4224694d07e7def817c4930b"
+          }
+        },
+        {
+          "client_id": "67369468024-2272vt045plmpr7d2qfvk2qnfftsijse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMyS9_xcpbMpu8NApbS52u0L-frk98SSI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67369468024-2272vt045plmpr7d2qfvk2qnfftsijse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

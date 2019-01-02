@@ -27,32 +27,3 @@ The app will also leverage android api such as,
 4. Link with instagram, facebook or twitter.
 
 5. Auto generate timeline of your raising history.
-
-## Weekly Log
-### Week 1
-*Work on setting up project, completing UI, work with getting data from API parsed and database setup.
-
-UI Assignments
-
-Harry’s UI
-Login
-Shared-facebook
-Home (bottom bar)
-garden（card)
-
-Sally’s UI
-Questions 1-4
-
-James’ UI
-your suggestions
-More about suggestions
-about this plant
-Welcome@3x
-
-//james has committed
-
-//Sally's random commits 1
-
-//Harry has committed 1
-
-//test for pull to own branch
