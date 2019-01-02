@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:backgroundTint="@android:color/white"
+    android:elevation="2dp"
+    android:layout_margin="7dp"
+    >
+    <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="#D9F5E8">
+
+                <ImageView
+                    android:id="@+id/later_avatar"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:paddingHorizontal="10dp"
+                    app:srcCompat="@drawable/graptoveria" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"></View>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="20dp">
+
+                    <TextView
+                        android:id="@+id/later_specie"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.2"
+                        android:text="Graptoveria"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:id="@+id/later_species_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.8"
+                        android:inputType="textMultiLine"
+                        android:text="Require lots of sun. Water regularly over the summer months. Minimal water is required over winter"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    app:srcCompat="@drawable/right_go"/>
+            </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

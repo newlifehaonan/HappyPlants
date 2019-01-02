@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/input_full"
+    android:backgroundTint="@android:color/white"
+    android:padding="10dp"
+    android:elevation="2dp"
+    android:layout_margin="7dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/plant_story_pic"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/log_plant"
+            android:paddingHorizontal="5dp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"></View>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:id="@+id/plant_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Plant"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/plant_des_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I added the first plant graptoveria"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                app:srcCompat="@drawable/medals"/>
+
+            <TextView
+                android:id="@+id/date_slash"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:text="9/11/2018"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/shardTo"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/share"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_welcome">
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/question3"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/question3_body"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/question3_body"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="190dp"
+        android:paddingRight="200dp"
+        android:text="@string/planttype"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question2" />
+
+
+    <Button
+        android:id="@+id/hanging"
+        android:layout_width="120dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounded"
+        android:drawableTop="@drawable/hanging"
+        android:elevation="0dp"
+        android:gravity="bottom|center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/hanging"
+        android:textAllCaps="false"
+        android:textColor="#76af6d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/question1_nav"
+        app:layout_constraintEnd_toStartOf="@+id/ground"
+        app:layout_constraintStart_toEndOf="@+id/flowering" />
+
+
+    <Button
+        android:id="@+id/bonsai"
+        android:layout_width="122dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="995dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/rounded"
+        android:drawableTop="@drawable/bonsaiimg"
+        android:elevation="0dp"
+        android:gravity="bottom|center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/bonsai"
+        android:textAllCaps="false"
+        android:textColor="#76af6d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/flowering"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toEndOf="@+id/question3_body"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cleanairplant"
+        android:layout_width="124dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="490dp"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/rounded"
+        android:drawableTop="@drawable/cleanair"
+        android:elevation="0dp"
+        android:gravity="bottom|center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/cleanairplant"
+        android:textAllCaps="false"
+        android:textColor="#76af6d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/officeplants"
+        app:layout_constraintEnd_toStartOf="@+id/question3_body"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/flowering"
+        android:layout_width="126dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded"
+        android:drawableTop="@drawable/floweringimg"
+        android:elevation="0dp"
+        android:gravity="bottom|center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/flowering"
+        android:textAllCaps="false"
+        android:textColor="#76af6d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Previous"
+        app:layout_constraintEnd_toStartOf="@+id/question3_body"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bonsai" />
+
+
+    <Button
+        android:id="@+id/ground"
+        android:layout_width="120dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded"
+        android:drawableTop="@drawable/groundimg"
+        android:elevation="0dp"
+        android:gravity="bottom|center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/ground"
+        android:textAllCaps="false"
+        android:textColor="#76af6d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/skip"
+        app:layout_constraintEnd_toStartOf="@+id/officeplants"
+        app:layout_constraintStart_toEndOf="@+id/hanging" />
+
+    <Button
+        android:id="@+id/officeplants"
+        android:layout_width="120dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded"
+        android:drawableTop="@drawable/officeplants"
+        android:elevation="0dp"
+        android:gravity="bottom|center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/officeplant"
+        android:textAllCaps="false"
+        android:textColor="#76af6d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/skip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ground"
+        app:layout_constraintTop_toBottomOf="@+id/cleanairplant" />
+
+    <Button
+        android:id="@+id/Previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="2dp"
+        android:background="@null"
+        android:clickable="true"
+        android:text="Previous"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/question1_nav"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/question1_nav"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintLeft_toRightOf="@+id/Previous"
+        app:layout_constraintRight_toLeftOf="@+id/skip"
+        app:layout_constraintTop_toBottomOf="@+id/ground"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/navcircles3" />
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@null"
+        android:clickable="true"
+        android:text="Skip"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toEndOf="@+id/question1_nav" />
+</android.support.constraint.ConstraintLayout>
+<!--<android.support.constraint.ConstraintLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@drawable/background_welcome">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/question2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="148dp"-->
+        <!--android:layout_marginStart="147dp"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:text="@string/question3"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="24sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/question3_body"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.544"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/question3_body"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="47dp"-->
+        <!--android:layout_marginTop="24dp"-->
+        <!--android:paddingLeft="240dp"-->
+        <!--android:paddingRight="200dp"-->
+        <!--android:text="@string/planttype"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/question2" />-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/hanging"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="116dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="24dp"-->
+        <!--android:layout_marginEnd="11dp"-->
+        <!--android:layout_marginStart="12dp"-->
+        <!--android:background="@drawable/rounded"-->
+        <!--android:drawableTop="@drawable/aloem"-->
+        <!--android:elevation="0dp"-->
+        <!--android:gravity="bottom|center"-->
+        <!--android:paddingBottom="20dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:text="@string/hanging"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#76af6d"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/question1_nav"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/ground"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/flowering" />-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/bonsai"-->
+        <!--android:layout_width="122dp"-->
+        <!--android:layout_height="116dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="3dp"-->
+        <!--android:layout_marginEnd="1066dp"-->
+        <!--android:layout_marginStart="15dp"-->
+        <!--android:layout_marginTop="49dp"-->
+        <!--android:background="@drawable/rounded"-->
+        <!--android:drawableTop="@drawable/aloem"-->
+        <!--android:elevation="0dp"-->
+        <!--android:gravity="bottom|center"-->
+        <!--android:paddingBottom="20dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:text="@string/bonsai"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#76af6d"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/flowering"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.566"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/question3_body"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/cleanairplant"-->
+        <!--android:layout_width="124dp"-->
+        <!--android:layout_height="116dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="3dp"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:layout_marginStart="556dp"-->
+        <!--android:layout_marginTop="49dp"-->
+        <!--android:background="@drawable/rounded"-->
+        <!--android:drawableTop="@drawable/aloem"-->
+        <!--android:elevation="0dp"-->
+        <!--android:gravity="bottom|center"-->
+        <!--android:paddingBottom="20dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:text="@string/cleanairplant"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#76af6d"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/officeplants"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/question3_body"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/flowering"-->
+        <!--android:layout_width="126dp"-->
+        <!--android:layout_height="116dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="12dp"-->
+        <!--android:layout_marginStart="95dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:background="@drawable/rounded"-->
+        <!--android:drawableTop="@drawable/hawthoria"-->
+        <!--android:elevation="0dp"-->
+        <!--android:gravity="bottom|center"-->
+        <!--android:paddingBottom="20dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:text="@string/flowering"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#76af6d"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/Previous"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/question3_body"-->
+        <!--app:layout_constraintHorizontal_bias="0.339"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/bonsai" />-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/ground"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="116dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="24dp"-->
+        <!--android:background="@drawable/rounded"-->
+        <!--android:drawableTop="@drawable/portulacaria"-->
+        <!--android:elevation="0dp"-->
+        <!--android:gravity="bottom|center"-->
+        <!--android:paddingBottom="20dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:text="@string/ground"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#76af6d"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/skip"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/officeplants"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/hanging" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/officeplants"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="116dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:layout_marginStart="148dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:background="@drawable/rounded"-->
+        <!--android:drawableTop="@drawable/graptoveria"-->
+        <!--android:elevation="0dp"-->
+        <!--android:gravity="bottom|center"-->
+        <!--android:paddingBottom="20dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:text="@string/officeplant"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#76af6d"-->
+        <!--android:textSize="18sp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/skip"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/ground"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/cleanairplant" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/Previous"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginStart="5dp"-->
+        <!--android:clickable="true"-->
+        <!--android:background="@null"-->
+        <!--android:text="Previous"-->
+        <!--android:textSize="20sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/question1_nav"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/question1_nav"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="28dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.08"-->
+        <!--app:layout_constraintLeft_toRightOf="@+id/Previous"-->
+        <!--app:layout_constraintRight_toLeftOf="@+id/skip"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/ground"-->
+        <!--app:layout_constraintVertical_bias="0.976"-->
+        <!--app:srcCompat="@drawable/navcircles" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/skip"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:clickable="true"-->
+        <!--android:background="@null"-->
+        <!--android:text="Skip"-->
+        <!--android:textSize="20sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.703"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/question1_nav"/>-->
+<!--</android.support.constraint.ConstraintLayout>-->

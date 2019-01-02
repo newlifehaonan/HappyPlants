@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/story_pop"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:background="@color/grayLight"
+        android:layout_width="match_parent"
+        android:layout_height= "0dp"
+        android:layout_weight="0.08"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/cancle_share"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent"
+            android:text="Cancel"
+            android:textColor="@color/blueDark"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="match_parent"
+            android:text="FaceBook"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+        <Button
+            android:id="@+id/post"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:background="@null"
+            android:text="Share"
+            android:textColor="@color/blueDark"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:background="@drawable/head"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:text="John Smith"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:text="Posting to facebook, Public"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:background="@drawable/right_go"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray">
+    </View>
+    <EditText
+        android:id="@+id/user_twit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        android:hint="Say Something">
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/input_full"
+        android:backgroundTint="@android:color/white"
+        android:padding="10dp"
+        android:elevation="2dp"
+        android:layout_margin="7dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/story_avatar"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/log_plant"
+                android:paddingHorizontal="5dp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray"></View>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp">
+
+                <TextView
+                    android:id="@+id/plant_index"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Plant"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/plant_des_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I added the first plant graptoveria"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

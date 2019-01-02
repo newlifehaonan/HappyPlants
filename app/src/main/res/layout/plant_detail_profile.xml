@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_linear">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/plantProfile"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="125dp"
+            android:background="@android:color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/backcard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                </View>
+                <TextView
+                    android:id="@+id/plant_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/plant_info"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="14dp"
+                    android:drawableLeft="@drawable/leaf"
+                    android:drawablePadding="3dp"
+                    android:text="@string/fakeplantname"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/plant_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="10dp"
+                    android:paddingHorizontal="15dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/fakeplantdescription"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/plantProfile2"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plantProfile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:background="@android:color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/backcard2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/species"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/speciesicon"
+                    android:drawablePadding="6dp"
+                    android:ems="10"
+                    android:gravity="bottom"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:text="@string/species"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/watertimeicon"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:gravity="bottom"
+                    android:inputType="textMultiLine"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/time"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <ImageView
+            android:id="@+id/plant_compound"
+            android:layout_width="186dp"
+            android:layout_height="157dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:contentDescription="@string/login_plant"
+            android:translationZ="100dp"
+            app:srcCompat="@drawable/plant_with_oval_clip" />
+
+
+        <Button
+            android:id="@+id/wateredbutton"
+            android:layout_width="225dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="93dp"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/option_circle"
+            android:gravity="center"
+            android:onClick="wateredPlant"
+            android:layout_below="@id/plantProfile2"
+            android:text="@string/watered"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toTopOf="@+id/average"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.481"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/question3_body" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

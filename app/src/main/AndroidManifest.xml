@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="afinal.csc472.depaul.edu.houseplants">
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,6 +17,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".QuestionOneActivity"></activity>
+        <activity android:name=".QuestionTwoActivity"></activity>
+        <activity android:name=".QuestionThreeActivity"></activity>
+        <activity android:name=".QuestionFourActivity"></activity>
+        <activity android:name=".SuggestionActivity"></activity>
+        <activity android:name=".AboutPlantActivity"></activity>
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".ExploreActivity"></activity>
+        <activity android:name=".PlantStoryActivity"></activity>
+        <activity android:name=".PlantDetailActivity"></activity>
+        <activity android:name=".ShareStoryPopActivity"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".ExploreToGardenActivity"></activity>
+        <activity android:name=".SearchAllActivity"></activity>
+        <activity android:name=".UserProfileActivity"></activity>
     </application>
 
 </manifest>
